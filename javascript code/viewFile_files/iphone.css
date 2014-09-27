@@ -1,0 +1,75 @@
+#wrapper {
+  width: 320px;
+  margin: 0px auto;
+}
+
+.content {
+  width: 260px;
+  margin: 0 auto;
+  top: -200px;
+}
+
+.inset-container {
+  background: rgb(0,0,0); /* Fallback */
+  background: rgba(0,0,0,0.28);
+  border: 1px solid #373737;
+  width: 230px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.arrow-divider {
+  display: block;
+  width: 35px;
+  height: 13px;
+  margin: 20px auto;
+  background: url("img/Down_Pointer.png") no-repeat;
+}
+
+.container-step {
+  width: 240px;
+  margin: 0;
+  display: inline-block;
+}
+
+  #badge {
+    display: block;
+    height: 44px;
+    margin: 15px auto 0 auto;
+  }
+
+  .container-step .icon {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    display: block;
+  }
+
+  .container-step .icon img {
+    height: 40px;
+  }
+
+  .container-step h1 {
+    text-align: left;
+    font-family: Lato;
+    font-size: 19px;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .container-step h2 {
+    text-align: left;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+  }
+
+.lower-content img.sepline {
+  position: relative;
+  left: -30px;
+}
